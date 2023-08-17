@@ -8,7 +8,7 @@ export function Header() {
     <S.Header>
       <ul>
         <li>
-        <img src={Coracao} alt="like" />
+        <a href="https://www.youtube.com/watch?v=POe9SOEKotk"> <img src={Coracao} alt="like" /></a>
         </li>
       </ul>
       <ul>
