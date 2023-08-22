@@ -1,18 +1,17 @@
-import { ComponentHeader, ComponentFooter } from "./components/index"
+
 import { GlobalStyle } from "./styles/GlobalStyle"
-import { Home } from "./pages/home/index"
+import { RouteSoftware } from "./routes"
+import { BrowserRouter } from "react-router-dom"
 
 export function App (){
   return (
-    <>
+    <BrowserRouter>
     <GlobalStyle/>
-    <ComponentHeader/>
-    <Home />
-  
-    <ComponentFooter/>
     
+    
+    <RouteSoftware />  
 
-    </>
+    </BrowserRouter>
   )
 }
 
