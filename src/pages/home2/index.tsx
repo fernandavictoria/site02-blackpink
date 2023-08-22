@@ -1,4 +1,4 @@
-import * as S from "./style"
+import * as S from "./style.ts"
 import blackpink from "../../assets/tout.webp"
 import blackpinkletra from "../../assets/text-1691766522331.png"
 

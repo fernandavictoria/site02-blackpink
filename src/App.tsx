@@ -1,5 +1,5 @@
 
-import { GlobalStyle } from "./styles/GlobalStyle"
+import { GlobalStyle } from "./style/GlobalStyle"
 import { RouteSoftware } from "./routes"
 import { BrowserRouter } from "react-router-dom"
 

@@ -1,10 +1,15 @@
-import {Routes} from "react-router-dom"
-import {Home, Home2, Layout} from "../pages"
+import { Routes, Route } from "react-router-dom"
+import {PageLayout, PageHome, PageHome2} from "../pages"
 
-export function RouteSoftware(){
-    return(
-        
+export function RouteSoftware() {
+    return (
+      <Routes>
+        <Route path="/" element={<PageLayout />}>
+          <Route path="" element={<PageHome />} />
+          <Route path="fotos" element={<PageHome2 />} />
+        </Route>
+      </Routes>
     )
-}
+  }
     
 

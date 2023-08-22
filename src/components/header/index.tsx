@@ -1,5 +1,5 @@
 import * as S from "./styles"
-import Coracao from "../../assets/coracao.png"
+import Coracao from "../../assets/casinha.png"
 import Passar from "../../assets/direita.png"
 
 
@@ -8,12 +8,14 @@ export function Header() {
     <S.Header>
       <ul>
         <li>
-        <a href="https://www.youtube.com/watch?v=POe9SOEKotk"> <img src={Coracao} alt="like" /></a>
+        <a href="/"> <img src={Coracao} alt="like" /></a>
         </li>
       </ul>
       <ul>
         <li>
+        <a href="/fotos">
         <img src={Passar} alt="passar" />
+        </a>  
         </li>
       </ul>
     </S.Header>

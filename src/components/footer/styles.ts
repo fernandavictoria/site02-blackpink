@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-import { colors } from "../../styles/GlobalStyle"
+import { colors } from "../../style/GlobalStyle"
 
 export const Footer = styled.footer`
   /* Rodapé */
